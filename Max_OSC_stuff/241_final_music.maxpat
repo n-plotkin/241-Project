@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 79.0, 1336.0, 896.0 ],
+		"rect" : [ 133.0, 81.0, 1513.0, 896.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,78 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 683.0, 807.0, 150.0, 60.0 ],
+					"text" : "this ensures that the siren stays on if the music turns off and back on again while the siren is on"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 690.0, 928.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 703.0, 874.0, 77.0, 22.0 ],
+					"text" : "r start_music"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1133.5, 1033.0, 62.0, 22.0 ],
+					"text" : "r siren_on"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 794.0, 899.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.75, 899.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-44",
 					"linecount" : 2,
@@ -2297,7 +2369,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 301.5, 890.0, 291.0, 22.0 ],
-					"text" : "/mainCamera/rotation -0. 0."
+					"text" : "/mainCamera/rotation 10.08 176.875"
 				}
 
 			}
@@ -2361,12 +2433,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 57.25, 641.5, 174.0, 22.0 ],
-					"text" : "/mainCamera/rotation -0. 0."
+					"patching_rect" : [ 57.25, 641.5, 174.0, 35.0 ],
+					"text" : "/mainCamera/rotation 10.08 176.875"
 				}
 
 			}
@@ -2424,6 +2497,16 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 677.5, 866.5, 161.0, 101.5 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2474,6 +2557,13 @@
 					"midpoints" : [ 278.5, 885.0, 278.5, 885.0 ],
 					"order" : 1,
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2617,6 +2707,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"midpoints" : [ 882.5, 891.0, 882.5, 891.0 ],
+					"order" : 0,
+					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-173", 0 ]
 				}
 
@@ -2639,8 +2738,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-198", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"midpoints" : [ 989.5, 891.0, 989.5, 891.0 ],
+					"order" : 0,
 					"source" : [ "obj-198", 0 ]
 				}
 
@@ -2871,6 +2979,29 @@
 					"destination" : [ "obj-268", 0 ],
 					"midpoints" : [ 29.5, 867.0, 29.5, 867.0 ],
 					"source" : [ "obj-269", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"order" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"order" : 1,
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -3140,6 +3271,13 @@
 					"destination" : [ "obj-92", 0 ],
 					"midpoints" : [ 94.055555555555543, 1047.0, 94.055555555555543, 1047.0 ],
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

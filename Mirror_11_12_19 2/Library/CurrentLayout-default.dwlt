@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 59
+    x: 211
+    y: 50
     width: 1440
     height: 841
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 841
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 30
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 31
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 32
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 479
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 309
     height: 791
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -293,8 +293,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279
-    y: 89
+    x: 490
+    y: 80
     width: 850
     height: 460
   m_ViewDataDictionary: {fileID: 0}
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -2.934559, y: 1.7141885, z: 2.5071821}
     speed: 2
-    m_Value: {x: -3.0159163, y: 1.7006748, z: 2.6166697}
+    m_Value: {x: -2.934559, y: 1.7141885, z: 2.5071821}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -341,11 +341,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.25476247, y: 0.7181269, z: -0.32744646, w: -0.5587235}
     speed: 2
-    m_Value: {x: -0.25476244, y: 0.71812683, z: -0.32744646, w: -0.5587235}
+    m_Value: {x: -0.25476205, y: 0.7181257, z: -0.32744592, w: -0.55872256}
   m_Size:
     m_Target: 5.1200647
     speed: 2
-    m_Value: 5.420065
+    m_Value: 5.1200647
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -392,17 +392,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 89
+    x: 211
+    y: 80
     width: 279
     height: 460
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 117}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffff
+      m_SelectedIDs: 78420000
+      m_LastClickedID: 17016
+      m_ExpandedIDs: 88f2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -447,8 +447,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 310
-    y: 75
+    x: 490
+    y: 80
     width: 850
     height: 460
   m_ViewDataDictionary: {fileID: 0}
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 850, y: 460}
+  m_LastWindowPixelSize: {x: 1700, y: 920}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -554,8 +554,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 568
+    x: 211
+    y: 559
     width: 1131
     height: 293
   m_ViewDataDictionary: {fileID: 0}
@@ -578,15 +578,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 55
-  m_LastProjectPath: /Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19
+  m_LastProjectPath: /Users/NevetssteveN/Desktop/cs241/241-Project/Mirror_11_12_19
     2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 322e0000
-    m_LastClickedID: 11826
-    m_ExpandedIDs: 00000000322e000000ca9a3b
+    m_SelectedIDs: ea3c0000
+    m_LastClickedID: 15594
+    m_ExpandedIDs: 00000000ea3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,7 +614,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000322e0000
+    m_ExpandedIDs: 00000000ea3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -717,8 +717,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1131
-    y: 89
+    x: 1342
+    y: 80
     width: 307
     height: 772
   m_ViewDataDictionary: {fileID: 0}
