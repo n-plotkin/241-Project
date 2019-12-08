@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -497,10 +497,12 @@ MonoBehaviour:
   changeIntensity: 1
   intensitySpeed: 5
   maxIntensity: 6
+  intensityMultiplier: 1
   changeColors: 1
   colorSpeed: 5
   startColor: {r: 0.49295616, g: 0.990566, b: 0.06074228, a: 0}
   endColor: {r: 0.9528302, g: 0.05842829, b: 0.47942564, a: 0}
+  osc: {fileID: 0}
 --- !u!1 &373311045
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,10 +537,12 @@ MonoBehaviour:
   changeIntensity: 1
   intensitySpeed: 5
   maxIntensity: 10
+  intensityMultiplier: 1
   changeColors: 1
   colorSpeed: 5
   startColor: {r: 0.039215684, g: 0.32941177, b: 0.14804134, a: 0}
   endColor: {r: 1, g: 0, b: 0.06448603, a: 0}
+  osc: {fileID: 0}
 --- !u!108 &373311047
 Light:
   m_ObjectHideFlags: 0
@@ -1950,6 +1954,142 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   osc: {fileID: 1486440794}
+--- !u!1 &963848926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963848931}
+  - component: {fileID: 963848930}
+  - component: {fileID: 963848929}
+  - component: {fileID: 963848928}
+  - component: {fileID: 963848927}
+  - component: {fileID: 963848932}
+  m_Layer: 0
+  m_Name: musicToggleSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &963848927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016ef821b59624b4b9884a77c594d8db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  osc: {fileID: 1486440794}
+  rend: {fileID: 0}
+--- !u!135 &963848928
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &963848929
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 724553ce33cfc4d4a8af07cf63138d13, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &963848930
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &963848931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_LocalRotation: {x: -0.02379781, y: 0.008171441, z: -0.011309688, w: 0.9996194}
+  m_LocalPosition: {x: -2.889, y: 1.003, z: 0.272}
+  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: -2.716, y: 0.96800005, z: -1.319}
+--- !u!114 &963848932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963848926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 963848927}
+          m_MethodName: Toggle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1009931683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,10 +3048,12 @@ MonoBehaviour:
   changeIntensity: 1
   intensitySpeed: 4
   maxIntensity: 8
+  intensityMultiplier: 1
   changeColors: 0
   colorSpeed: 4
   startColor: {r: 0.9433962, g: 0.057849795, b: 0.06652051, a: 0}
   endColor: {r: 0.07262372, g: 0.73333335, b: 0.9056604, a: 0}
+  osc: {fileID: 0}
 --- !u!4 &1458559503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 482300, guid: 60270cf52a5e94998a5a335989159738,
@@ -3856,10 +3998,12 @@ MonoBehaviour:
   changeIntensity: 1
   intensitySpeed: 4
   maxIntensity: 5
+  intensityMultiplier: 1
   changeColors: 1
   colorSpeed: 4
   startColor: {r: 0.9528302, g: 0.8385701, b: 0.085395135, a: 0}
   endColor: {r: 0.8266579, g: 0.056692798, b: 0.9245283, a: 0}
+  osc: {fileID: 0}
 --- !u!1 &1849042581
 GameObject:
   m_ObjectHideFlags: 0

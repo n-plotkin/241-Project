@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9823ACEC-DAB6-1325-F8ED-5362685F0A2F}</ProjectGuid>
+    <ProjectGuid>{1170CD64-6C41-2250-4F1C-3593DDDF8AF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -77,37 +77,37 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,44 +292,26 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Facebook.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Lumin.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.AppleTV.Extensions">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
@@ -691,7 +673,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{3FE1913A-3ADD-CA58-05B9-3AF7B5FAD9CE}</Project>
+      <Project>{D7037252-7A26-EEF0-03B0-C2A8A6060AF8}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

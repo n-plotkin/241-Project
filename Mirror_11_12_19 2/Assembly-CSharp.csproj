@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3FE1913A-3ADD-CA58-05B9-3AF7B5FAD9CE}</ProjectGuid>
+    <ProjectGuid>{D7037252-7A26-EEF0-03B0-C2A8A6060AF8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\colorChange.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
@@ -188,8 +187,11 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\musicToggle.cs" />
+    <Compile Include="Assets\OSC.cs" />
     <Compile Include="Assets\pointLightColorChange.cs" />
     <Compile Include="Assets\rotateLight.cs" />
+    <Compile Include="Assets\sendRotationOsc.cs" />
     <Compile Include="Assets\staticColorChange.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
@@ -208,31 +210,31 @@
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -412,10 +414,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-      <HintPath>/Users/nataliekorzh/241_Mirrors/Mirror_11_12_19/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+      <HintPath>/Users/nplotkin/Documents/Project/241-Project-master/Mirror_11_12_19 2/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>

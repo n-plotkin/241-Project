@@ -12,9 +12,6 @@ public class sendRotationOsc : MonoBehaviour
     void Start()
     {
         frameNum = 0;
-        OscMessage start_music = new OscMessage();
-        start_music.address = "/music/on";
-        osc.Send(start_music);
     }
 
     private void sendAngles(){
