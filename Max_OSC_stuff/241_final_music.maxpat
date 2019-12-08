@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 130.0, 1331.0, 896.0 ],
+		"rect" : [ 105.0, 86.0, 1331.0, 896.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -165,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 463.0, 83.0, 150.0, 33.0 ],
-					"text" : "changes duration of stop_music (in milis)"
+					"text" : "changes duration of stop_music event (in milis)"
 				}
 
 			}
@@ -2417,7 +2417,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 301.5, 890.0, 291.0, 22.0 ],
-					"text" : "/mainCamera/rotation 10.08 176.875"
+					"text" : "/mainCamera/rotation 346.2 264.25"
 				}
 
 			}
@@ -2487,7 +2487,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.25, 641.5, 174.0, 35.0 ],
-					"text" : "/mainCamera/rotation 10.08 176.875"
+					"text" : "/mainCamera/rotation 346.2 264.25"
 				}
 
 			}
